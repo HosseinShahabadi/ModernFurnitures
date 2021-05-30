@@ -1,0 +1,6 @@
+.wx-align-vertically {
+  margin-top: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

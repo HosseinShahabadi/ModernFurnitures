@@ -1,0 +1,217 @@
+@import './reset.min.css';
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('../fonts/Yekan.eot') format('eot'),
+    url('../fonts/Yekan.ttf') format('truetype'),
+    url('../fonts/Yekan.woff2') format('woff2'),
+    url('../fonts/Yekan.woff') format('woff');
+}
+
+body {
+  font-family: 'Yekan';
+  direction: rtl;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ============================== Header =============================== */
+
+header {
+  width: 100%;
+}
+
+header .navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar .right-navbar {
+  display: flex;
+}
+
+header .navbar .right-navbar ul {
+  display: flex;
+}
+
+header .navbar .right-navbar ul li {
+  margin: 0 10px;
+}
+
+header .navbar .right-navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+header .navbar .left-navbar {
+  display: flex;
+  align-items: center;
+}
+
+header .navbar .left-navbar ul {
+  display: flex;
+  margin-left: 20px;
+}
+
+header .navbar .left-navbar ul li {
+  margin: 0 10px;
+}
+
+header .navbar .left-navbar ul li a svg {
+  color: #000;
+  font-size: 20px;
+}
+
+header .navbar .left-navbar img {
+  height: 40px;
+  margin-top: 15px;
+}
+
+header .slide {
+  background-image: url(../img/slide.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+header .slide .slider {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+header .slide .slider span {
+  position: absolute;
+  font-size: 140px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #e2e2e2;
+  left: 37%;
+  top: 30%;
+}
+
+header .slide .slider .slider-desc {
+  position: absolute;
+  top: 35%;
+  left: 0%;
+}
+
+header .slide .slider .slider-desc h1 {
+  font-size: 120px;
+  margin-top: 30px;
+  margin-right: 300px;
+  color: #505050;
+}
+
+header .slide .slider .slider-desc h2 {
+  font-size: 90px;
+  color: #222;
+}
+
+/* ============================== HangingOne =============================== */
+
+#hanging-one {
+  width: 100%;
+  display: flex;
+  background-color: #c56211;
+  position: relative;
+}
+
+#hanging-one .hangingbackgroundsync {
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 90%;
+  position: absolute;
+}
+
+#hanging-one .hanging-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hanging-one .hanging-one .hanging-right {
+  display: flex;
+  background-color: #fff;
+  width: 65%;
+}
+
+#hanging-one .hanging-one .hanging-right .hanging-right-desc {
+  position: relative;
+}
+
+#hanging-one .hanging-one .hanging-right .hanging-right-desc h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  color: #c56211;
+}
+
+#hanging-one .hanging-one .hanging-right .hanging-right-desc p {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+#hanging-one .hanging-one .hanging-right .hanging-right-desc a {
+  text-decoration: none;
+  background-color: #c56211;
+  color: #fff;
+  padding: 10px 15px;
+  left: 20px;
+  position: absolute;
+}
+
+#hanging-one .hanging-one .hanging-right img {
+  height: 300px;
+  width: 500px;
+}
+
+#hanging-one .hanging-one .hanging-left {
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+
+#hanging-one .hanging-one .hanging-left .hanging-left-desc {
+  width: 100%;
+  color: #fff;
+  margin-right: 100px;
+}
+
+#hanging-one .hanging-one .hanging-left .hanging-left-desc h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+#hanging-one .hanging-one .hanging-left .hanging-left-desc h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+/* ============================== HangingTwo =============================== */
+
+#hanging-two {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+#hanging-two .hang-right {
+  background-image: url("../img/hang.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 36.5%;
+}
