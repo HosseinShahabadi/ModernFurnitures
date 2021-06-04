@@ -1,8 +1,11 @@
-# ModernFurnitures
+ModernFurnitures
 
-# Developer: Hossein Shahabadi
+Developer: Hossein Shahabadi
 
+----------
 
 UI: TopLearn Group
+
 jQuery: Benjamin Intal, Farzad Masoumi
+
 Adviser: Farzad Masoumi
