@@ -6,6 +6,7 @@
   <title>Modern Furnitures</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
   <link rel="stylesheet" href="./css/all.min.css">
 </head>
 
@@ -15,6 +16,9 @@
     <nav>
       <div class="container">
         <div class="navbar">
+          <div class="hamburger" alt="icon" >
+            <img src="./img/Hamburger_icon.png" alt="hamburger" />
+          </div>
           <div class="right-navbar">
             <ul>
               <li><a href="#">خانه</a></li>
@@ -34,6 +38,15 @@
           </div>
         </div>
       </div>
+    </nav>
+    <nav class="responsive-nav">
+      <ul>
+        <a href="#1"><li>خانه</li></a>
+        <a href="#2"><li>آرشیو</li></a>
+        <a href="#3"><li>جدیدترین ها</li></a>
+        <a href="#4"><li>ارتباط با ما</li></a>
+        <a href="#5"><li>درباره ما</li></a>
+      </ul>
     </nav>
 
     <div class="slide">
@@ -119,7 +132,7 @@
             <a href="#">میخرمش</a>
           </div>
           <div class="sofaone-left-img">
-            <img src="./img/sofa.png" alt="" />
+            <img src="./img/sofa.png" alt="sofa" />
           </div>
         </div>
       </div>
@@ -197,7 +210,9 @@
           </ul>
         </div>
         <div class="footer-desc">
-          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
+          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
+            بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
+            با هدف بهبود ابزارهای کاربردی می باشد. </p>
         </div>
       </div>
     </div>
@@ -207,14 +222,7 @@
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
-  <script>
-    jQuery(document).ready(function ($) {
-      $('.counter').counterUp({
-        delay: 10,
-        time: 800
-      });
-    });
-  </script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

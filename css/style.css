@@ -23,6 +23,36 @@ body {
   margin: 0 auto;
 }
 
+.hamburger {
+  width: 20%;
+  display: none;
+}
+
+.hamburger img {
+  width: 40px;
+}
+
+.responsive-nav {
+  display: none;
+}
+
+.responsive-nav ul {
+  line-height: 70px;
+}
+
+.responsive-nav ul li {
+  width: 100%;
+}
+
+.responsive-nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.responsive-nav ul a:hover {
+  color: #c56211;
+}
+
 /* ============================== Header =============================== */
 
 header {
@@ -55,6 +85,10 @@ header .navbar .right-navbar ul li a {
   font-size: 18px;
 }
 
+header .navbar .right-navbar ul li a:hover {
+  color: #c56211;
+}
+
 header .navbar .left-navbar {
   display: flex;
   align-items: center;
@@ -84,12 +118,12 @@ header .slide {
   background-size: cover;
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 930px;
 }
 
 header .slide .slider {
   width: 100%;
-  height: 90vh;
+  height: 930px;
   position: relative;
 }
 
@@ -202,7 +236,7 @@ header .slide .slider .slider-desc h2 {
 
 #hanging-two {
   width: 100%;
-  height: 700px;
+  height: 692px;
   position: relative;
 }
 
@@ -272,7 +306,7 @@ header .slide .slider .slider-desc h2 {
 #sofa-one .sofa-one .sofaone-right .sofaone-right-desc {
   width: 100%;
   color: #fff;
-  margin-right: 100px;
+  margin-right: 90px;
 }
 
 #sofa-one .sofa-one .sofaone-right .sofaone-right-desc h1 {
@@ -330,7 +364,7 @@ header .slide .slider .slider-desc h2 {
 
 #sofa-two {
   width: 100%;
-  height: 700px;
+  height: 692px;
   position: relative;
 }
 
